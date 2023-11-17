@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: pink;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.card{
+    
+    width: 18rem;
+    height: 35rem;
+    background: #fff;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px #0000008c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-upper{
+    background: rgb(39, 114, 133);
+    position: relative;
+    width: 100%;
+    height: 30%;
+    z-index: 0;
+    border-radius: 20px 20px 0  0 ;
+}
+
+.profile-img{
+    width: 9rem;
+    object-fit: fill;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: -25%;
+    z-index: 2;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 5px 1px #000000b6;
+    transition: transform 1s;
+}
+
+.profile-img:hover{
+    transform: scale(1.2);
+}
+
+.three-point-icon{
+    font-size: 1.3rem;
+    align-self: flex-end;
+    position: absolute;
+    top: 28%;
+    margin-right: 1.5rem;
+    color: black;
+}
+
+.profile-info{
+    text-align: center;
+}
+
+.profile-name{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.profile-info small{
+    color: #3d3636;
+}
+
+.stat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+.stat div{
+    cursor: pointer;
+    padding: 0.6rem;
+    border-radius: 1rem;
+
+}
+.stat div:active{
+    background-color: #cccccc6b;
+}
+
+.stat div p{
+    color: #0866FF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.stat div span{
+    font-size: 0.9rem;
+    color: #8f8686;
+}
+
+.follow-btn{
+    background: rgb(230, 197, 9);
+    color: #3d3636;
+    width: 80%;
+    text-align: center;
+    font-weight: 600;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.follow-btn:hover{
+    background: rgb(201, 166, 9);
+    transform: scale(1.025);
+}
+
+.desc{
+    margin: 1.5rem 1.3rem;
+    font-size: 0.9rem;
+    color: #2c2828;
+}
