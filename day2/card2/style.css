@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color1: hsl(215, 51%, 70%);
+}
+html{
+    background: hsl(217, 54%, 11%);
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.card{
+    font-family: 'Outfit', sans-serif;
+    height: 34.6rem;
+    width: 20rem;
+    background-image: linear-gradient(180deg, hsl(216, 50%, 18%), hsl(217, 54%, 13%));
+    margin: 3.2rem auto;
+    border-radius: 1.2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 1s ;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+
+.card-img{
+    width: 88%;
+    margin: rem;
+    margin-top: 1.2rem;
+    border-radius: 0.9rem;
+}
+
+.card-desc{
+    padding: 1.5rem;
+    
+}
+
+.card-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+}
+
+.desc{
+    color: var(--color1);
+    margin: 1rem 0;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid hsl(213, 37%, 24%);
+}
+
+.icons{
+    margin-bottom: -3px;
+    margin-right: 0.2rem;
+}
+
+.price span{
+    font-weight: 600;
+    color: aqua;
+}
+
+.time-left span{
+    font-weight: 500;
+    color: var(--color1);
+}
+
+
+.creator{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-img{
+    width: 1.8rem;
+    border-radius: 50%;
+    border: 2.6px solid #ccc;
+}
+
+.creator-desc{
+    font-weight: 400;
+    color: var(--color1);
+}
+
+.aqua{
+    color: #fff;
+}
+
+.aqua:hover{
+    color: aqua;
+}
