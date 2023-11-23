@@ -26,17 +26,17 @@ html{
 }
 
 .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 
 
 .card-img{
     width: 88%;
-    margin: rem;
     margin-top: 1.2rem;
     border-radius: 0.9rem;
 }
+
 
 .card-desc{
     padding: 1.5rem;
